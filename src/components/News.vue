@@ -65,7 +65,7 @@ export default {
   padding: 20px;
   margin: 18px 8px;
   max-width: 400px;
-  min-width: 400px;
+  min-width: 200px;
   border-radius: 30px;
 }
 
@@ -80,7 +80,7 @@ a:hover{
   cursor: pointer;
 }
 
-h3, h4{
+h4{
   font-size: 15px;
 }
 

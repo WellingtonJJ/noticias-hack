@@ -2,13 +2,14 @@
   <div id="app">
     <div class="header">
       <h1>Hack News</h1>
-      <h3>Visualizando atualmente {{ viewItems }} notícias</h3>
+ 
     </div>
-
-
-    <input class="btn" type="button" value="Exibir 10" v-on:click="findNewsIDs(10)"/>
-    <input class="btn" type="button" value="Exibir 20" v-on:click="findNewsIDs(20)"/>
-    <input class="btn" type="button" value="Exibir 30" v-on:click="findNewsIDs(30)"/>
+    <div class="nav">
+      <h3>Visualizando atualmente {{ viewItems }} notícias</h3>
+      <input class="btn" type="button" value="Exibir 10" v-on:click="findNewsIDs(10)"/>
+      <input class="btn" type="button" value="Exibir 20" v-on:click="findNewsIDs(20)"/>
+      <input class="btn" type="button" value="Exibir 30" v-on:click="findNewsIDs(30)"/>
+    </div>
     <div class="newsView">
       <News
         v-for="notice in newsIDs"
@@ -80,6 +81,7 @@ body {
   word-wrap: break-word;
   word-break: break-all;
   text-align-last: center;
+  margin: 0;
 }
 
 .btn{
@@ -90,7 +92,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     margin: 2px;
     cursor: pointer;
 }
@@ -112,13 +114,26 @@ body {
   flex-wrap: wrap;
 }
 
-.header {
+.header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  color: white;
+  padding: 25px;
+  margin: 0;
+  background-color: black;
 }
 
+.nav{
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 200px;
+  margin: 20px auto;
+}
 
+h3{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
 </style>
