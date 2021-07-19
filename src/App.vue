@@ -133,7 +133,7 @@ body {
 
 h3{
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 </style>

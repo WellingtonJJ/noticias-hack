@@ -2,7 +2,7 @@
   <div class="main">
     <div class="principal">
       <h1>
-        <a v-bind:href="link" target="_blank">Notícia: {{ title }}</a>
+        <a v-bind:href="link" target="_blank">{{ title }}</a>
       </h1>
     </div>
     <div class="details">
