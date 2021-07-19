@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: white;
-  padding: 25px;
+  padding: 10px;
   margin: 0;
   background-color: black;
 }
@@ -129,7 +129,7 @@ body {
   margin: 0 auto;
   max-width: 600px;
   min-width: 100px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 h3{

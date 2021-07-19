@@ -63,7 +63,7 @@ export default {
   background-color: rgb(238, 236, 236);
   color: rgb(129, 126, 126);
   padding: 20px;
-  margin: 18px 8px;
+  margin: 14px 8px;
   max-width: 300px;
   min-width: 300px;
   border-radius: 30px;
