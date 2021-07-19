@@ -93,7 +93,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 10px;
     margin: 2px;
     cursor: pointer;
 }
@@ -127,8 +127,8 @@ body {
 
 .nav{
   margin: 0 auto;
-  max-width: 800px;
-  min-width: 200px;
+  max-width: 600px;
+  min-width: 100px;
   margin: 20px auto;
 }
 

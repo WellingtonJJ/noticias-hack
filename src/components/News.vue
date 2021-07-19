@@ -64,15 +64,15 @@ export default {
   color: rgb(129, 126, 126);
   padding: 20px;
   margin: 18px 8px;
-  max-width: 400px;
-  min-width: 200px;
+  max-width: 300px;
+  min-width: 300px;
   border-radius: 30px;
 }
 
 a {
   text-decoration: none;
   color: #f16d00;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 a:hover{
