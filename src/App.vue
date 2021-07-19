@@ -63,6 +63,7 @@ export default {
   created() {
     this.viewItems = 10;
     this.findNewsIDs(this.viewItems);
+    document.title = "Hack News"
   },
 };
 </script>
