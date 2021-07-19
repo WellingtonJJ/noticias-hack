@@ -1,4 +1,4 @@
-# hack-noticias
+# hack-news-challenge
 
 ## Project setup
 ```
